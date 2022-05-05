@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Notes\Notes\bin\Debug\Notes.exe.config
+C:\Users\User\source\repos\Notes\Notes\bin\Debug\Notes.exe
+C:\Users\User\source\repos\Notes\Notes\bin\Debug\Notes.pdb
+C:\Users\User\source\repos\Notes\Notes\obj\Debug\Notes.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Notes\Notes\obj\Debug\Notes.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Notes\Notes\obj\Debug\Notes.exe
+C:\Users\User\source\repos\Notes\Notes\obj\Debug\Notes.pdb
