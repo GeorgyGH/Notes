@@ -56,8 +56,8 @@ namespace Notes
                         break;
                     }
             }
-
         }
+
         static void SwitchWorkWithNote (string command, List<Note> notes)
         {
 
@@ -73,13 +73,11 @@ namespace Notes
                             notes[Int32.Parse(index) - 1].Print();
                             break;
                         }
-
                         catch (Exception)
                         {
                             Console.WriteLine("Вы ввели неправильный номер");
                             break;
                         }
-
                     }
 
                 case "2":
@@ -98,7 +96,6 @@ namespace Notes
 
                             break;
                         }
-
                         catch (Exception)
                         {
                             Console.WriteLine("Вы ввели неправильный номер");
@@ -117,13 +114,11 @@ namespace Notes
                             notes.RemoveAt(Int32.Parse(index) - 1);
                             break;
                         }
-
                         catch (Exception)
                         {
                             Console.WriteLine("Вы ввели неправильный номер");
                             break;
                         }
-
                     }
 
                 case "0":
@@ -141,7 +136,6 @@ namespace Notes
 
         static void Main(string[] args)
         {
-
             List<Note> notes;
 
             try
@@ -177,6 +171,7 @@ namespace Notes
                             Note note = new Note();
                             note.Add(title, text);
                             notes.Add(note);
+
                             break;
                         }
                     case "2":
