@@ -91,6 +91,7 @@ namespace Notes
                             {
                                 Console.WriteLine("Введите команду [1], чтобы поменять заметку полностью, команду [2], чтобы поменять только название, команду [3], чтобы поменять только текст или команду [0] для возврата назад");
                                 string commandForChange = Console.ReadLine();
+
                                 SwitchForChange(commandForChange, notes, Int32.Parse(index));
                             }
 
