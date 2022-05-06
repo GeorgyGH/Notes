@@ -112,6 +112,8 @@ namespace Notes
                         try
                         {
                             notes.RemoveAt(Int32.Parse(index) - 1);
+
+                            Console.WriteLine("Заметка была удалена");
                             break;
                         }
                         catch (Exception)

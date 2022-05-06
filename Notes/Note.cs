@@ -3,7 +3,7 @@
 namespace Notes
 {
     [Serializable]
-    public class Note : IDisposable
+    public class Note 
     {
 
         public string title;
@@ -44,11 +44,6 @@ namespace Notes
         {
             Console.WriteLine("Название:" + title);
             Console.WriteLine("Текст заметки:" + text);
-        }
-
-        public void Dispose()
-        {
-            Console.WriteLine("Заметка была удалена");
         }
 
         public string GetTitle()
